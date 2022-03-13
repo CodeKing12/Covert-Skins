@@ -156,30 +156,44 @@ JS INDEX
 			// animateOut: 'fadeOutLeft',
 			// animateIn: 'fadeIn',
 			items: 3,
-			// nav: true,
+			nav: true,
 			// dots: true,
 			// autoplayTimeout: 7000,
 			// autoplaySpeed: 2000,
 			// autoplay: false,
 			// loop: true,
-			// navText: ["<img class='hero-left' src='assets/img/homepage/right-arrow (1).png'>", "<img class='hero-right' src='assets/img/homepage/right-arrow (1).png'>"],
-			// mouseDrag: true,
-			// touchDrag: true,
+			rewind: true,
+			slideBy: '50%',
+			scrollPerPage : true,
+			lazyLoad: true,
+			navText: ["<img class='hero-left' src='assets/img/homepage/right-arrow.svg'><img id='hover-arrow' class='hero-left hover-arrow' src='assets/img/homepage/right-hover.svg'>", "<img class='hero-right' src='assets/img/homepage/right-arrow.svg'><img class='hero-right hover-arrow' src='assets/img/homepage/right-hover.svg'>"],
+			mouseDrag: true,
+			touchDrag: true,
+			autoWidth: true,
 			responsive: {
 				0: {
-					items: 1
+					items: 1,
+					slideBy: 1
 				},
 				445: {
-					items: 2
+					items: 2,
+					slideBy: 1
 				},
 				657: {
-					items: 3
+					items: 3,
+					slideBy: 2
 				},
 				850: {
-					items: 4
+					items: 4,
+					slideBy: 3
 				},
 				920: {
-					items: 4
+					items: 4,
+					slideBy: 3
+				},
+				1200: {
+					items: 5,
+					slideBy: 4
 				}
 			// 750: {
 			// 	items: 2
@@ -187,7 +201,7 @@ JS INDEX
 			// 1000: {
 			// 	items: 2
 			}
-		})
+		});
 
 		/* 
 		=================================================================
@@ -355,4 +369,3 @@ JS INDEX
 
 
 }(jQuery));
-

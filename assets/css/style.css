@@ -1065,17 +1065,17 @@ span.is-active {
 }
 
 .slide-1 {
-    background-image: url(../img/homepage/alexander-jawfox-Mu0ExSKTOBs-unsplash.jpg);
+    background-image: url(../img/homepage/csgo.jpg);
     background-position: right;
 }
 
 .slide-2 {
-    background-image: url(../img/homepage/aleksey-kashmar-fSlc4po8mio-unsplash.jpg);
+    background-image: url(../img/homepage/Soldier\ image.jpg);
     background-position: right;
 }
 
 .slide-3 {
-    background-image: url(../img/homepage/hizir-kaya-0q90Mumo-xE-unsplash.jpg);
+    background-image: url(../img/homepage/Gas-Mask-Shooter-Counter-Strike-Global-Offensive-HD-Wallpapers-53301.jpg);
     background-position: right;
 }
 
@@ -1360,7 +1360,7 @@ span.is-active {
     overflow: hidden;
 }
 
-.games-thumb-image:before {
+/* .games-thumb-image:before {
     position: absolute;
     left: -25%;
     top: -50%;
@@ -1377,7 +1377,7 @@ span.is-active {
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
     border-top: 2px solid #E48632
-}
+} */
 
 .game-overlay {
     position: absolute;
@@ -1761,7 +1761,7 @@ span.is-active {
 
 .fag-preorder-area {
     position: relative;
-    background: url(../img/preloader_bg.jpg) no-repeat fixed 0 0/cover;
+    background: url(../img/homepage/Video-Game-CS-GO-Wallpaper-53373.jpg) no-repeat fixed 0 0/cover;
     z-index: 1;
     padding: 100px 0;
     height: 540px;
@@ -1774,7 +1774,7 @@ span.is-active {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(8, 3, 37, 0.54) none repeat scroll 0 0;
+    background: rgba(8, 8, 17, 0.1) none repeat scroll 0 0;
     z-index: -1;
 }
 
@@ -2022,7 +2022,7 @@ span.is-active {
 }
 
 .footer-top-area {
-    padding: 70px 0 100px;
+    padding: 70px 0 50px;
     position: relative;
 }
 .single-footer {
@@ -4752,7 +4752,7 @@ input[type="radio"]:checked ~ label {
     width: 49px;
 }
 
-.owl-nav {
+.slider-area .owl-nav {
     position: absolute;
     top: 37%;
     right: 25px;
@@ -4779,9 +4779,9 @@ input[type="radio"]:checked ~ label {
     }
 }
 
-.slide-1 .fag-main-caption {
+/* .slide-1 .fag-main-caption {
     background: unset !important;
-}
+} */
 
 @media (max-width: 767px) {
     .owl-nav {
@@ -4906,10 +4906,180 @@ input[type="radio"]:checked ~ label {
     display: flex;
 }
 
-@media (max-width: 445px) {
+/* @media (max-width: 445px) {
     .games-item {
         width: 82% !important;
         margin-left: auto;
         margin-right: auto;
     }
+} */
+
+#skin-slider .owl-next, #skin-slider .owl-prev {
+    background-color: #c8ff0b !important;
+    padding: 10px 20px !important;
+    transition: all 0.16s ease-in;
+}
+
+.skin-slider .hero-left {
+    transform: rotateY(180deg);
+    display: unset;
+}
+
+.skin-slider .owl-prev {
+    margin-right: 10px;
+}
+
+.skin-slider .hero-right, .skin-slider .hero-left {
+    width: 25px !important;
+    cursor: pointer !important;
+} 
+@media (max-width: 485px) {
+    .skin-slider .owl-nav {
+        display: flex;
+        position: unset !important;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .skin-slider .owl-next {
+        margin-right: 15px;
+    }
+
+    .skin-slider .owl-prev {
+        margin-left: 15px
+    }
+}
+
+.sliders-heading {
+    font-size: 2.3rem;
+    text-align: left;
+}
+
+.sliders-heading span {
+    color: #c8ff0b;
+}
+
+.projectFilter {
+    margin-bottom: unset;
+}
+
+.skin-slider .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    z-index: 20000;
+}
+
+#skin-slider .owl-next:hover, #skin-slider .owl-prev:hover {
+    background-color: #080811 !important;
+    border: 2px solid #fff;
+    transition: all 0.16s ease-out;
+}
+
+#hover-arrow, .hover-arrow {
+    display: none;
+}
+
+#skin-slider .owl-next:hover .hero-right, #skin-slider .owl-prev:hover .hero-left {
+    display: none;
+}
+
+#skin-slider .owl-next:hover .hover-arrow, #skin-slider .owl-prev:hover #hover-arrow {
+    display: unset;
+}
+
+.skin-slider .fag-btn-outline:hover {
+    color: #080811;
+    font-weight: bold;
+}
+
+.games-thumb-image:hover {
+    cursor: pointer !important;
+}
+
+.games-thumb-image {
+    min-width: 200px;
+}
+
+.games-item .games-thumb-image img {
+    cursor: pointer !important;
+    transition: all 0.7s ease;
+}
+
+.games-item:hover .games-thumb-image img {
+    transform: rotateY(180deg);
+    transition: all 0.7s ease;
+}
+
+.game-action {
+    flex-direction: column;
+}
+
+.skin-slider .fag-btn-outline {
+    margin-top: 8px;
+    white-space: nowrap;
+}
+
+.game-meta span {
+    color: #c8ff0b;
+    display: block;
+}
+
+.game-price h4 {
+    font-size: 23.7px !important;
+}
+
+.games-desc h3 {
+    font-size: 20.5px !important;
+}
+
+.free {
+    text-align: center;
+}
+
+.smg-skins, .heavy-wpn-skins {
+    margin-top: 76px;
+}
+
+.load_more {
+    margin: unset;
+}
+
+.load_more a:hover {
+    font-weight: bolder;
+    color: #080811;
+}
+
+.fag-games-area {
+    margin-bottom: 12px;
+}
+
+.footer-logo img {
+    width: 400px;
+}
+
+.promo-iamge::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(8, 8, 17, 0.6) none repeat scroll 0 0;
+}
+
+.promo-box h3 span {
+    color: #c8ff0b;
+}
+
+.preorder-box p {
+    color: #c8ff0b;
+}
+
+.single-footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
 }
