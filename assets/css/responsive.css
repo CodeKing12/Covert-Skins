@@ -2,7 +2,7 @@
 
 @media (min-width: 992px) and (max-width: 1169px) {
 	* {
-        cursor: default !important
+        /* cursor: default !important */
     }
     a, button{
         cursor: pointer !important

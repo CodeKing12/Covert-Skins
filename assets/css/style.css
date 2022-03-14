@@ -1761,7 +1761,8 @@ span.is-active {
 
 .fag-preorder-area {
     position: relative;
-    background: url(../img/homepage/Video-Game-CS-GO-Wallpaper-53373.jpg) no-repeat fixed 0 0/cover;
+    /* background: url(../img/homepage/Video-Game-CS-GO-Wallpaper-53373.jpg) no-repeat fixed 0 0/cover; */
+    background: url(../img/homepage/Video-Game-CS-GO-Wallpaper-53373.jpg) fixed no-repeat 0;
     z-index: 1;
     padding: 100px 0;
     height: 540px;
@@ -3586,7 +3587,7 @@ button.fag-btn:hover {
 .page-404 {
     display: block;
     position: relative;
-    background: url(../img/404_bg.jpg) no-repeat scroll 0 0/cover;
+    background: url(../img/homepage/thumb-1920-96579.jpg) no-repeat scroll 0 0/cover;
     z-index: 1
 }
 
@@ -3596,7 +3597,7 @@ button.fag-btn:hover {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(8, 3, 37, .8);
+    background: rgba(8, 8, 17, .64);
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     z-index: -1;
@@ -5082,4 +5083,22 @@ input[type="radio"]:checked ~ label {
     /* display: flex;
     flex-direction: column;
     align-items: center; */
+}
+
+.page-404 .fag-btn {
+    cursor: pointer !important;
+    color: #080811;
+    font-weight: bold;
+}
+
+.custom-checkbox svg {
+    margin-right: 12px;
+}
+
+.login-page {
+    background: url("../img/homepage/de pantalla counter strike 2010 hd widescreen Gratis imagenes 2629.jpg") no-repeat scroll 0 0/cover !important;
+}
+
+.login-page::after {
+    background: rgba(8, 8, 17, .64) !important;
 }
