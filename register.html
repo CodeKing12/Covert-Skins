@@ -20,10 +20,11 @@
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="assets/css/responsive.css">
    </head>
-   <body>
-
-      <!-- Header Area Start -->
-      <nav class="fag-header navbar navbar-expand-lg">
+   <body onload="showPage()">
+      <div class="loading" id="loading">
+         <img src="logo-dark.png" style="width: 50%;">
+      </div>
+      <nav class="covert-header navbar navbar-expand-lg">
         <div class="header-container container">
            <a class="navbar-brand" href="index.html"><img src="logo-dark.png" alt="site logo" /></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -144,7 +145,7 @@
                            </div>
                            <div class="form-row"></div>
                            <div class="form-row">
-                              <button class="fag-btn" type="submit">Create your Account</button>
+                              <button class="covert-btn" type="submit">Create your Account</button>
                            </div>
                         </form>
                         <div class="socials-wrapper">

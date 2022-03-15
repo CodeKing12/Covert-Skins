@@ -16,7 +16,7 @@
     .games-desc{
         padding: 15px
     }
-    .game-action a.fag-btn-outline{
+    .game-action a.covert-btn-outline{
         padding: 5px 15px
     }
     .game-price h4{
@@ -76,10 +76,10 @@
     .navbar-toggler{
         padding-right: 0
     }
-    .fag-header{
+    .covert-header{
         padding: 15px 0
     }
-    .fag-header.scroll{
+    .covert-header.scroll{
         padding: 10px 0
     }
     .navbar-brand img {
@@ -135,7 +135,7 @@
     .header-right > div > a{
         padding: 8px 7px
     }
-    .fag-header.scroll .header_menu > li > a, .fag-header.scroll .header-right > div > a{
+    .covert-header.scroll .header_menu > li > a, .covert-header.scroll .header-right > div > a{
         padding: 8px 7px
     }
     .search-block > .search-toggle{
@@ -152,14 +152,14 @@
     .search-block form span{
         font-size: 20px
     }
-    .fag-main-slide{
+    .covert-main-slide{
         height: 650px
     }
     .slider-text h2 {
         font-size: 56px;
         line-height: 60px;
     }
-    .fag-video-inn{
+    .covert-video-inn{
         width: 100%
     }
     .games-item{
@@ -231,7 +231,7 @@
     .product-details-text {
         margin-top: 30px;
     }
-    .product-panel-list .fag-comment-list, .product-panel-list .fag-leave-comment{
+    .product-panel-list .covert-comment-list, .product-panel-list .covert-leave-comment{
         width: 100%
     }
     .checkout-left-box{
@@ -274,7 +274,7 @@
     .navbar-toggler{
         padding-right: 0
     }
-    .fag-header{
+    .covert-header{
         padding: 10px 0
     }
     .navbar-brand img {
@@ -330,7 +330,7 @@
     .header-right > div > a{
         padding: 8px 7px
     }
-    .fag-header.scroll .header_menu > li > a, .fag-header.scroll .header-right > div > a{
+    .covert-header.scroll .header_menu > li > a, .covert-header.scroll .header-right > div > a{
         padding: 8px 7px
     }
     .search-block > .search-toggle{
@@ -347,7 +347,7 @@
     .search-block form span{
         font-size: 20px
     }
-    .fag-main-slide{
+    .covert-main-slide{
         height: 480px
     }
     .slider-text {
@@ -362,7 +362,7 @@
         font-size: 38px;
         line-height: 44px
     }
-    .fag-slide .owl-dots {
+    .covert-slide .owl-dots {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -370,20 +370,20 @@
         text-align: center;
         top: 80%;
     }
-    .fag-slide .owl-dot{
+    .covert-slide .owl-dot{
         display: inline-block;
     }
-    .fag-slide .owl-dot{
+    .covert-slide .owl-dot{
         width: 30px;
         margin: 0 5px
     }
-    .fag-btn-outline{
+    .covert-btn-outline{
         font-size: 18px
     }
     .bottom-layer{
         bottom: -65px
     }
-    .fag-video-inn{
+    .covert-video-inn{
         width: 100%
     }
     .site-heading{
@@ -436,7 +436,7 @@
         width: 22%;
         margin: 22px auto 0;
     }
-    .fag-promo-area{
+    .covert-promo-area{
         min-height: 500px;
     }
     .promo-box{
@@ -498,7 +498,7 @@
         font-size: 40px;
         margin-bottom: 10px
     }
-    .fag-breadcrumb-area{
+    .covert-breadcrumb-area{
         padding: 150px 0 80px
     }
     .about-top{
@@ -564,7 +564,7 @@
         max-width: 105px;
         margin: 0 auto;
     }
-    .fag-matchs-list .match-box-middle{
+    .covert-matchs-list .match-box-middle{
         margin: 30px 0
     }
     .match-box-action {
@@ -618,7 +618,7 @@
         margin-left: 0;
         margin-top: 30px
     }
-    .product-panel-list .fag-comment-list, .product-panel-list .fag-leave-comment{
+    .product-panel-list .covert-comment-list, .product-panel-list .covert-leave-comment{
         width: 100%
     }
     .order-summury-box {
@@ -671,7 +671,7 @@
     .navbar-toggler{
         padding-right: 0
     }
-    .fag-header{
+    .covert-header{
         padding: 10px 0
     }
     .navbar-brand img {
@@ -727,7 +727,7 @@
     .header-right > div > a{
         padding: 8px 7px
     }
-    .fag-header.scroll .header_menu > li > a, .fag-header.scroll .header-right > div > a{
+    .covert-header.scroll .header_menu > li > a, .covert-header.scroll .header-right > div > a{
         padding: 8px 7px
     }
     .search-block > .search-toggle{
@@ -744,7 +744,7 @@
     .search-block form span{
         font-size: 20px
     }
-    .fag-main-slide{
+    .covert-main-slide{
         height: 480px
     }
     .slider-text {
@@ -759,7 +759,7 @@
         font-size: 44px;
         line-height: 55px;
     }
-    .fag-slide .owl-dots {
+    .covert-slide .owl-dots {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -767,20 +767,20 @@
         text-align: center;
         top: 80%;
     }
-    .fag-slide .owl-dot{
+    .covert-slide .owl-dot{
         display: inline-block;
     }
-    .fag-slide .owl-dot{
+    .covert-slide .owl-dot{
         width: 30px;
         margin: 0 5px
     }
-    .fag-btn-outline{
+    .covert-btn-outline{
         font-size: 18px
     }
     .bottom-layer{
         bottom: -65px
     }
-    .fag-video-inn{
+    .covert-video-inn{
         width: 100%
     }
     .site-heading{
@@ -833,7 +833,7 @@
         width: 22%;
         margin: 22px auto 0;
     }
-    .fag-promo-area{
+    .covert-promo-area{
         min-height: 500px;
     }
     .promo-box{
@@ -895,7 +895,7 @@
         font-size: 40px;
         margin-bottom: 10px
     }
-    .fag-breadcrumb-area{
+    .covert-breadcrumb-area{
         padding: 150px 0 80px
     }
     .about-top{
@@ -970,7 +970,7 @@
         max-width: 105px;
         margin: 0 auto;
     }
-    .fag-matchs-list .match-box-middle{
+    .covert-matchs-list .match-box-middle{
         margin: 30px 0
     }
     .match-box-action {
@@ -1024,7 +1024,7 @@
         margin-left: 0;
         margin-top: 30px
     }
-    .product-panel-list .fag-comment-list, .product-panel-list .fag-leave-comment{
+    .product-panel-list .covert-comment-list, .product-panel-list .covert-leave-comment{
         width: 100%
     }
     .order-summury-box {

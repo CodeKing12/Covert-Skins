@@ -66,7 +66,7 @@ JS INDEX
 		=================================================================	
 		*/
 
-		$(".fag-slide").owlCarousel({
+		$(".covert-slide").owlCarousel({
 			animateOut: 'fadeOutLeft',
 			animateIn: 'fadeIn',
 			items: 2,
@@ -101,15 +101,15 @@ JS INDEX
 			}
 		});
 
-		$(".fag-slide").on("translate.owl.carousel", function () {
-			$(".fag-main-slide h2, .fag-main-slide p").removeClass("animated fadeInUp").css("opacity", "0");
-			$(".fag-main-slide .fag-btn-outline").removeClass("animated fadeInDown").css("opacity", "0");
-			$(".fag-main-slide h3").removeClass("animated fadeInLeft").css("opacity", "0");
+		$(".covert-slide").on("translate.owl.carousel", function () {
+			$(".covert-main-slide h2, .covert-main-slide p").removeClass("animated fadeInUp").css("opacity", "0");
+			$(".covert-main-slide .covert-btn-outline").removeClass("animated fadeInDown").css("opacity", "0");
+			$(".covert-main-slide h3").removeClass("animated fadeInLeft").css("opacity", "0");
 		});
-		$(".fag-slide").on("translated.owl.carousel", function () {
-			$(".fag-main-slide h2, .fag-main-slide p").addClass("animated fadeInUp").css("opacity", "1");
-			$(".fag-main-slide .fag-btn-outline").addClass("animated fadeInDown").css("opacity", "1");
-			$(".fag-main-slide h3").addClass("animated fadeInLeft").css("opacity", "1");
+		$(".covert-slide").on("translated.owl.carousel", function () {
+			$(".covert-main-slide h2, .covert-main-slide p").addClass("animated fadeInUp").css("opacity", "1");
+			$(".covert-main-slide .covert-btn-outline").addClass("animated fadeInDown").css("opacity", "1");
+			$(".covert-main-slide h3").addClass("animated fadeInLeft").css("opacity", "1");
 		});
 
 
@@ -360,12 +360,17 @@ JS INDEX
 	==============================*/
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 50) {
-			$('.fag-header').addClass('scroll');
+			$('.covert-header').addClass('scroll');
 		} else {
-			$('.fag-header').removeClass('scroll');
+			$('.covert-header').removeClass('scroll');
 		}
 
 	});
 
 
 }(jQuery));
+
+function showPage() {
+	document.getElementById("loading").classList.add("removed");
+	setTimeout(function() {document.getElementById('loading').style.display = 'none'}, 900)
+}
