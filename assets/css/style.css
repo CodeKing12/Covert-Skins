@@ -515,8 +515,8 @@ li {
 ==================================================*/
 
 .fag-breadcrumb-area {
-    padding: 170px 0 100px;
-    background: url(../img/breadcrumb_bg.jpg) no-repeat scroll center center/cover
+    padding: 210px 0 140px;
+    background: url(../img/homepage/344268-CSGO-Counter-Strike-Global-Offensive-Video-Game-Counter-Terrorist.jpg) no-repeat scroll center center/cover
 }
 
 .breadcromb-box {
@@ -4025,7 +4025,7 @@ button.fag-btn:hover {
 
 .product-details-text .tour-rating p {
     display: inline-block;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     color: #fff;
     text-transform: capitalize;
 }
@@ -4261,8 +4261,8 @@ button.fag-btn:hover {
 }
 
 .fag-cart-preview {
-    width: 115px;
-    height: 100px;
+    width: 170px;
+    height: auto;
     text-align: center;
 }
 
@@ -4527,7 +4527,7 @@ button.fag-btn:hover {
     display: inline-block;
     position: relative;
     padding: 0 0 0 30px;
-    margin: 10px auto;
+    margin: 10px;
     z-index: 9;
     cursor: pointer;
     -webkit-transition: all 0.25s linear;
@@ -4643,7 +4643,7 @@ input[type="radio"]:checked ~ label {
 .contact-form-inn form textarea {
 	width: 100%;
 	padding: 5px 15px;
-	height: 140px;
+	height: 200px;
 	border: medium none;
 	border-radius: 3px;
 	font-size: 15px;
@@ -4825,7 +4825,7 @@ input[type="radio"]:checked ~ label {
     height: 100%;
 }
 
-.games-item {
+.skin-slider .games-item {
     width: unset !important;
     height: 100%;
     padding: 0 15px 0 0 !important;
@@ -4926,27 +4926,27 @@ input[type="radio"]:checked ~ label {
     display: unset;
 }
 
-.skin-slider .owl-prev {
+#skin-slider .owl-prev {
     margin-right: 10px;
 }
 
-.skin-slider .hero-right, .skin-slider .hero-left {
+#skin-slider .hero-right, #skin-slider .hero-left {
     width: 25px !important;
     cursor: pointer !important;
 } 
 @media (max-width: 485px) {
-    .skin-slider .owl-nav {
+    #skin-slider .owl-nav {
         display: flex;
         position: unset !important;
         justify-content: center;
         margin-top: 20px;
     }
     
-    .skin-slider .owl-next {
+    #skin-slider .owl-next {
         margin-right: 15px;
     }
 
-    .skin-slider .owl-prev {
+    #skin-slider .owl-prev {
         margin-left: 15px
     }
 }
@@ -4964,7 +4964,7 @@ input[type="radio"]:checked ~ label {
     margin-bottom: unset;
 }
 
-.skin-slider .owl-nav {
+#skin-slider .owl-nav {
     position: absolute;
     right: 0;
     top: -50px;
@@ -4989,7 +4989,7 @@ input[type="radio"]:checked ~ label {
     display: unset;
 }
 
-.skin-slider .fag-btn-outline:hover {
+#skin-slider .fag-btn-outline:hover {
     color: #080811;
     font-weight: bold;
 }
@@ -5016,7 +5016,7 @@ input[type="radio"]:checked ~ label {
     flex-direction: column;
 }
 
-.skin-slider .fag-btn-outline {
+#skin-slider .fag-btn-outline {
     margin-top: 8px;
     white-space: nowrap;
 }
@@ -5101,4 +5101,195 @@ input[type="radio"]:checked ~ label {
 
 .login-page::after {
     background: rgba(8, 8, 17, .64) !important;
+}
+
+.gamesContainer.noslide-skins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+}
+
+.gamesContainer.noslide-skins .games-item {
+    padding: 0 15px 0 0;
+    margin: 30px auto;
+}
+
+.noslide-skins .games-item {
+    width: unset !important;
+}
+
+.noslide-skins .games-thumb-image {
+    display: flex;
+    justify-content: center;
+}
+
+.noslide-skins .games-thumb-image a {
+    display: flex;
+}
+
+.noslide-skins .games-desc {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 860px) and (max-width: 1034px) {
+    .noslide-skins .games-item {
+        width: 25% !important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 859px) {
+    .noslide-skins .games-item {
+        width: 30% !important;
+    }
+}
+
+@media (max-width: 482px) {
+    .noslide-skins .games-item {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 482px) {
+    .noslide-skins .games-item {
+        width: 85% !important;
+    }
+}
+
+.fag-slid {
+    display: block;
+}
+
+.breadcromb-box h3 {
+    color: #c8ff0b !important;
+    font-size: 3rem;
+}
+
+.breadcromb-box ul {
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumb-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(8, 8, 17, 0.3);
+}
+
+.navbar-brand {
+    cursor: pointer !important;
+}
+
+.plus, .minus {
+    cursor: pointer !important;
+}
+
+.fag-cart-close a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-svg {
+    display: none;
+}
+
+.fag-cart-close a:hover .norm-svg {
+    display: none !important;
+}
+
+.fag-cart-close a:hover .hover-svg {
+    display: inline-block;
+}
+
+.checkout-action .fag-btn:hover, .action-btn .fag-btn {
+    color: #080811 !important;
+    font-weight: bold;
+}
+
+.action-btn .fag-btn:hover {
+    color: #ffffff !important;
+}
+
+.form-row .fag-btn:hover {
+    color: #fff;
+}
+
+.resend-pass {
+    background: url(../img/homepage/846151_cs-counter-strike-wallpapers-hd-wallpapers-z_1920x1080_h.jpg) no-repeat scroll 0 0/cover !important;
+}
+
+.send-token {
+    background: url(../img/homepage/Video-Game-CS-GO-Desktop-Wallpaper-53364.jpg) no-repeat scroll 0 0/cover !important;
+}
+
+.messenger {
+    background: url(../img/homepage/XRTgHde.jpg) no-repeat scroll 0 0/cover !important;
+}
+
+.messenger .form-row .fag-btn {
+    width: 250px;
+}
+
+.messenger .btn-row {
+    justify-content: center;
+}
+
+.messenger .form-row .fag-btn a {
+    color: #080811;
+}
+
+.messenger .form-row .fag-btn:hover a {
+    color: #fff;
+}
+
+.comment-field .fag-btn {
+    cursor: pointer !important;
+}
+
+.comment-field .fag-btn:hover {
+    color: #080811;
+    font-weight: bold
+}
+
+.fag-product-details {
+    padding-top: 160px;
+}
+
+.fag-product-details .single-shop-page-btn .fag-btn {
+    color: #080811;
+    font-weight: bold;
+}
+
+.fag-product-details .single-shop-page-btn .fag-btn:hover {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.single-shop-page-btn .hover-svg {
+    display: none;
+}
+
+.fag-product-details .single-shop-page-btn .fag-btn:hover .hover-svg{
+    display: inline !important;
+}
+
+.fag-product-details .single-shop-page-btn .fag-btn:hover .norm-svg {
+    display: none !important;
+}
+
+.price {
+    color: #c8ff0b !important;
+}
+
+.page404 {
+    background: url(../img/homepage/CS-GO-HD-Wallpaper-53237.jpg) no-repeat scroll 0 0/cover !important;
+}
+
+.page404 .fag-btn:hover {
+    color: #fff
 }

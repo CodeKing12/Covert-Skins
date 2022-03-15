@@ -55,7 +55,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	
     * {
-        cursor: default !important
+        /* cursor: default !important */
     }
     a, button{
         cursor: pointer !important
@@ -253,7 +253,7 @@
 @media (max-width: 767px) {
 	
     * {
-        cursor: default !important
+        /* cursor: default !important */
     }
     a, button{
         cursor: pointer !important
@@ -650,7 +650,7 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
     * {
-        cursor: default !important
+        /* cursor: default !important */
     }
     a, button{
         cursor: pointer !important
